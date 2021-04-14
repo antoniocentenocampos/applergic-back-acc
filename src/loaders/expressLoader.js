@@ -14,7 +14,7 @@ function expressLoader(app) {
   });
   app.use(
     cors({
-      origin: ["http://localhost:3000", "http://localhost:3001", "https://applergic-back-acc.herokuapp.com/", "https://applergic.netlify.app"],
+      origin: ["http://localhost:3000", "http://localhost:3001", "https://applergic-back-acc.herokuapp.com/", "https://react-applergic-antoniocenteno.netlify.app"],
       credentials: true,
     })
   );
