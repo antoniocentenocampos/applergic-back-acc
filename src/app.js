@@ -1,5 +1,5 @@
 const express = require('express')
-const { server } = require('./config/config')
+const server = require('./config/config')
 const config = require('./config/config')
 const loader = require('./loader')
 
